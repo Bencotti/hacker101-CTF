@@ -26,7 +26,7 @@ When I was fiddling with the pages, I noticed that the page numbers do not match
 
 Manually checking each url, 
 - page 3: Not Found
-- page 4: Forbidden 
+- page 4: Forbidden
 - page 5: Not Found
 
 Since page 4 is Forbidden, I tried a round about method to enter it, using the page editor. First, I went to any editable page, and edited the url to `http://35.227.24.107/0274df1725/page/edit/4`. The flag was within the textbox.
@@ -43,4 +43,4 @@ Hints received:
 - Have you tested for the usual culprits? XSS, SQL injection, path injection
 
 Since XSS was found before, I decided to try with a test for SQL injection
-^FLAG^7a4cddbacdf450a66d550bf975812973de848991895767447ae53ca1180052c6$FLAG$
+**Flag:** ^FLAG^7a4cddbacdf450a66d550bf975812973de848991895767447ae53ca1180052c6$FLAG$
