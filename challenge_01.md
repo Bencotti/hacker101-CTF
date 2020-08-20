@@ -1,8 +1,11 @@
-# Flag 01 - A little something to get you started
+# Challenge 01 - A little something to get you started
+## Flags: 1 
+<br />
+
 
 The only information we get to work with is this static page.
 
-![challenge overview](/screenshots/01_1.JPG"info given")
+![challenge overview](/screenshots/01_1.JPG "info given")
 
 The next thing to check is the page source code, to see if there is any helpful information we can use. 
 
@@ -25,7 +28,7 @@ The next thing to check is the page source code, to see if there is any helpful 
 Notice that the background image has a path we can further explore: background.png
 Usually, the more efficient method of setting a plain background (i.e. white in this example) would be to use the built in functionality in HTML / CSS, which makes this png suspicious.
 
-![challenge overview](/screenshots/01_2.JPG"info given")
+![flag found](/screenshots/01_2.JPG "flag")
 
 True enough, the url contains our flag!
 
